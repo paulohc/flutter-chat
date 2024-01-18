@@ -1,16 +1,27 @@
 # chat_app
 
-A new Flutter project.
+An app for a single shared chat between multiple users.
 
-## Getting Started
+This project is a result of [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) course.
 
-This project is a starting point for a Flutter application.
+Sign Up&nbsp;&nbsp;&nbsp;&nbsp; | Sign In&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Chat;
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/paulohc/flutter-chat/assets/18506267/37c0d9c0-2910-4c52-b04c-32156cbed4cf) | ![](https://github.com/paulohc/flutter-chat/assets/18506267/047b6d83-a065-4a18-8605-9d3094c7244c) | ![](https://github.com/paulohc/flutter-chat/assets/18506267/313382f3-d0f7-4010-b5eb-237e5afc71fe)
 
-A few resources to get you started if this is your first Flutter project:
+## How to use
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Launch the app, so you will see Sign In screen. You can switch to Sign Up screen tapping `Create an account`. Once you have created an account and logged in, you will see the shared chat.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run
+
+To run this app will need you configure firebase authentication, storage and realtime database.
+
+
+Once you configure the dependencies, open this project on Visual Studio Code editor (make sure Flutter plugin in installed), so press `Ctrl+F5` (you need to connect a physical device or an emulator).
+
+
+If you want to use the command line, navigate to this project folder and run the following command:
+
+```
+flutter run
+```
